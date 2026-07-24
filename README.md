@@ -1,16 +1,113 @@
-# React + Vite
+# 💱 Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Currency Converter** built with **React.js** that converts **USD** into multiple international currencies using real-time exchange rates from the **Frankfurter API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🌍 Real-time currency conversion
+* 💵 Convert USD to multiple currencies
+* 🔄 Swap input and converted values
+* ⚡ Built using React Hooks
+* 📡 Fetches live exchange rates using the Frankfurter API
+* 📱 Responsive and clean UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Frankfurter API
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│── assets/
+│── App.jsx
+│── App.css
+│── index.css
+│── main.jsx
+```
+
+---
+
+## 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Aayush60-del/Currency_Converter.git
+```
+
+Navigate to the project
+
+```bash
+cd Currency_Converter
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 API Used
+
+This project uses the **Frankfurter API** to retrieve real-time exchange rates.
+
+Example:
+
+```text
+https://api.frankfurter.dev/v1/latest?base=USD&symbols=INR
+```
+
+---
+
+## 📸 Preview
+
+<img width="100%" alt="Currency Converter Preview" src="https://placehold.co/900x500?text=Currency+Converter+Preview">
+
+> Replace the image above with a screenshot of your application after deployment.
+
+---
+
+## 🎯 Future Improvements
+
+* Convert between any two currencies
+* Add "From" and "To" currency selectors
+* Currency search functionality
+* Exchange rate history
+* Dark/Light mode
+* Display conversion rate information
+* Error handling and loading spinner
+* Favorite currencies
+
+---
+
+## 👨‍💻 Author
+
+**Ayush Negi**
+
+* GitHub: https://github.com/Aayush60-del
+* LinkedIn: https://www.linkedin.com/in/aayush-negi-a08367334
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
