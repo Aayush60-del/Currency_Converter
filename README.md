@@ -80,7 +80,11 @@ https://api.frankfurter.dev/v1/latest?base=USD&symbols=INR
 
 ## 📸 Preview
 
-<img width="100%" alt="Currency Converter Preview" src="https://placehold.co/900x500?text=Currency+Converter+Preview">
+<img
+  width="100%"
+  alt="Currency Converter Preview"
+  src="./public/currency-converter.png"
+/>
 
 > Replace the image above with a screenshot of your application after deployment.
 
